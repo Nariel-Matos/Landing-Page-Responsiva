@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  box-sizing: border-box;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px 25px;
+  text-decoration: none;
+  background-color: rgb(245, 245, 245);
+}
+
+.header a {
+  width: 85px;
+  height: 85px;
+}
+
+.ul {
+  display: flex;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.ul li:hover {
+  font-weight: bold;
+  color: rgb(126, 69, 69);
+
+}
+
+.ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.section-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-home img {
+  width: 100%;
+}
+
+.section-home p {
+  position: absolute;
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+
+
+.container-ladrilho {
+  max-width: 100%;
+
+}
+
+.section-galeries {
+  height: 633px;
+  display: flex;
+
+  width: 100%;
+}
+
+.section-about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+
+}
+
+.section-about {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content-about {
+  width: 50%;
+  margin-top: 170px;
+  margin-bottom: 172px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.content-about img {
+  width: 170px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.content-about h1 {
+  margin-top: 70px;
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 56px;
+  color: #000000;
+  display: block;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+.content-about p {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 35px;
+  display: flex;
+  text-align: auto;
+  justify-content: center;
+  color: #000000;
+  margin-top: 37px;
+}
+
+.div-galeries-one {
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-galeries-one img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.div-galeries-two {
+
+  width: 53.5%;
+  height: 100%;
+}
+
+.div-galeries-two div {
+
+  width: 100%;
+  height: 50%;
+}
+
+.div-galeries-two-imgs img {
+
+  width: 50%;
+}
+
+.div-galeries-three {
+  width: 100%;
+}
+
+.div-galeries-three img {
+  width: 100%;
+}
+
+.container-adress {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.div-adress {
+  margin-top: 170px;
+  margin-bottom: 172px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.div-adress img {
+
+  width: 170px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+
+}
+
+.div-adress h1 {
+  margin-top: 70px;
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.div-adress p {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  margin-top: 37px;
+}
+
+.div-container-contact-img {
+  background-image: url('../assets/fundo-contato.jpg');
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.div-container-text {
+  color: #000000;
+  width: 100%;
+}
+
+.div-container-paragraf {
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 150px;
+  margin-left: 50%;
+  color: #000000;
+  justify-content: center;
+
+}
+
+.div-container-paragraf h1 {
+  margin: 161px auto 0 auto;
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.div-container-paragraf p {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  color: #FFFFFF;
+}
+
+.main-footer {
+  background-image: url('../assets/fundo-rodape.jpg');
+  width: 100%;
+  height: 211px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+}
+
+.footer-itens {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 30px;
+}
+
+.ul-footer {
+  display: flex;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.ul-footer li {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  color: rgb(126, 69, 69);
+}
+
+.p-footer {
+  text-decoration: none;
+  margin-bottom: 32px;
+  margin-left: 30px;
+  color: rgb(255, 255, 255);
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  cursor: pointer;
+  color: #FDFDFD;
+
+}
+
+.footer-social-main {
+  display: flex;
+  justify-content: end;
+
+}
+
+.footer-face {
+
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  display: flex;
+}
+
+.footer-insta {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+
+  margin-right: 30px;
+
+}
